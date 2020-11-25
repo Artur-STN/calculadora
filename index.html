@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- <link rel="shortcut icon" href="images/" type="image/png"> -->
+
+        <script src="js/script.js"></script>
+
+        <link rel="stylesheet" href="css/main.css">
+
+        <title>Calculadora</title>
+
+    </head>
+
+    <body>
+
+        <div id="divisoria-calculadora">
+
+            <div id="divisoria-display">
+
+                <form name="form">
+
+                    <input id="display" type="text">
+
+                </form>
+
+            </div>
+
+            <div id="divisoria-table">
+
+                <table id="tabela">
+
+                    <tr>
+                        <td onclick="clear_all_display()"><input id="button" type="button" value="CE"></td>
+                        <td onclick="clear_display()"><input id="button" type="button" value="C"></td>
+                        <td onclick=""><input id="button" type="button" value="%"></td>
+                        <td onclick="insert('/')"><input id="button" type="button" value="÷"></td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td onclick="insert(7)"><input id="button" type="button" value="7"></td>
+                        <td onclick="insert(8)"><input id="button" type="button" value="8"></td>
+                        <td onclick="insert(9)"><input id="button" type="button" value="9"></td>
+                        <td onclick="insert('*')"><input id="button" type="button" value="x"></td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td onclick="insert(4)"><input id="button" type="button" value="4"></td>
+                        <td onclick="insert(5)"><input id="button" type="button" value="5"></td>
+                        <td onclick="insert(6)"><input id="button" type="button" value="6"></td>
+                        <td onclick="insert('-')"><input id="button" type="button" value="-"></td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td onclick="insert(1)"><input id="button" type="button" value="1"></td>
+                        <td onclick="insert(2)"><input id="button" type="button" value="2"></td>
+                        <td onclick="insert(3)"><input id="button" type="button" value="3"></td>
+                        <td rowspan="2" onclick="insert('+')">+</td>
+
+                    </tr>
+
+                    <tr>
+                        <td onclick="insert(0)"><input id="button" type="button" value="0"></td>
+                        <td onclick="insert('.')"><input id="button" type="button" value="."></td>
+                        <td onclick=""><input id="button" type="button" value="=" onclick="equal()"></td>
+
+                    </tr>
+
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </body>
+
+</html>

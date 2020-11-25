@@ -1,0 +1,116 @@
+@font-face {
+    src: url('/fonts/Oswald-Regular.ttf');
+    font-family: 'O';
+
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+
+    background: gray;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+div#divisoria-calculadora {
+
+    margin-top: 2rem;
+    
+    font-size: 3rem;
+
+}
+
+input {
+
+    background: transparent;
+
+    font-family: 'O';
+    font-size: 3rem;
+
+    border: 1px #222 solid;
+
+    width: 300px;
+    height: 80px;
+
+    outline: none;
+
+}
+
+input:hover{
+
+    cursor: not-allowed;
+
+}
+
+
+#tabela {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 300px;
+
+    /* border-spacing: 0; */
+
+}
+
+table#tabela tr td input#button {
+
+    font-family: 'O';
+
+    background: #222;
+    color: white;
+
+    border: 1px solid #222;
+
+    width: 80px;
+    height: 80px;
+
+    cursor: pointer;
+
+    transition: ease 0.2s;
+
+}
+
+table#tabela tr td input#button:hover {
+
+    background: #2c2a2a;
+    color: white;
+
+}
+
+table#tabela tr td {
+
+    font-family: 'O';
+
+    background: #222;
+    color: white;
+
+    border: 1px solid #222;
+
+    text-align: center;
+
+    width: 80px;
+    height: 80px;
+
+    cursor: pointer;
+
+    transition: ease 0.2s;
+
+}
+table#tabela tr td:hover {
+
+    background: #2c2a2a;
+    color: white;
+
+}
