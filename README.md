@@ -1,3 +1,3 @@
 # calculadora
 
-artur-stn.github.io/calculadora
+https://artur-stn.github.io/calculadora
